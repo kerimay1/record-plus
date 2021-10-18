@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  border: none;
+  outline: none;
+  list-style: none;
+}
+
+.menu {
+  display: flex;
+  gap: 3px;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  background-color: rgb(10, 13, 202);
+}
+
+.menu button {
+  height: 40px;
+  width: 75px;
+  background-color: rgb(33, 181, 200);
+}
+
+.player {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 50px);
+}
+
+.player video {
+  width: 400px;
+  height: 200px;
+}
+
+@media (max-width: 800px) {
+  .player {
+    flex-direction: column;
+  }
+}
