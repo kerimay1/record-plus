@@ -19,7 +19,14 @@
 .menu button {
   height: 40px;
   width: 75px;
-  background-color: rgb(33, 181, 200);
+}
+
+.menu #start {
+  background-color: rgb(58, 194, 199);
+}
+
+.menu #stop {
+  background-color: rgb(235, 81, 81);
 }
 
 .player {
