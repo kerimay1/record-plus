@@ -1,0 +1,14 @@
+{
+  "name": "record-plus",
+  "version": "2.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "electron ."
+  },
+  "repository": "https://github.com/kerimay1/record-plus.git",
+  "author": "kerimay1 <aykerim0505@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^15.2.0"
+  }
+}
